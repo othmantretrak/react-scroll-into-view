@@ -1,6 +1,6 @@
 export interface ScrollIntoViewProps {
   selector: string
-  children: JSX.Element[] | JSX.Element
+  children: JSX.Element[] | JSX.Element | string
   smooth?: boolean
   style?: object
   alignToTop?: boolean
