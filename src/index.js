@@ -53,7 +53,7 @@ const ScrollInto = ({
       options.inline = 'nearest'
     }
 
-    const el = document.querySelector(selector)
+    const el = document.getElementById(selector)
     el.scrollIntoView(options)
   }
 
